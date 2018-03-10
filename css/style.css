@@ -1,0 +1,327 @@
+body{
+    font-family: serif !important;
+}
+
+.row{
+    padding:80px 0;
+}
+
+/*MENU*/
+#menu{
+    padding: 30px 0; 
+    border-bottom: solid 1px #e7e7e7  !important;
+}
+
+.navbar-header, .navbar-collapse{
+    background-color: #fff !important;
+}
+
+#menu ul li{
+    padding-left:5px;
+}
+#menu ul li a{
+    color:#000;
+}
+
+#menu ul li a:hover{
+    color:#ae0231;
+}
+
+.navbar{
+    height: 100%;
+    padding:0;
+    border:none !important;
+    margin-bottom:0 !important;
+    
+}
+
+.navbar-brand{
+    padding: 0 !important;
+}
+
+/*INICIO*/
+#inicio{
+    background: url("../images/fundoInicio.png") no-repeat center;
+    color:#fff;
+    padding:180px 0;
+}
+
+#inicio a{
+    background-color: transparent !important;
+    border-radius:0;
+    border:3px solid #fff;
+    color:#fff;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin:5px 0;
+}
+
+#inicio a:hover{
+    border-color:#cecece;
+    color:#cecece;
+}
+
+/*SERVICOS*/
+#servicos{
+    color:#807475;
+}
+
+#servicos h1{
+    color:#ae0231
+}
+
+#design{
+    border:solid 14px #ff4747;
+}
+
+#midia{
+    border:solid 14px #ff7f47;
+}
+
+#impressoes{
+    border:solid 14px #019a9a;
+}
+
+#servicos img{
+    margin: 20px auto;
+    
+}
+
+/*SOBRE*/
+#sobre{
+    background-color: #eaeaeb;
+}
+
+#divSobre h1{
+    color:#ae0231;
+    padding-bottom:30px;
+}
+
+/*PORTIFOLIO*/
+#portifolio{
+    background-color: #b0223a;
+    color:#fff;
+}
+
+#portifolio img{
+    margin:100px auto;
+    border:8px solid #fff;
+    margin-bottom:0;
+}
+
+/*CONTATO*/
+#contato{
+    background: url("../images/contato.png") no-repeat center;
+    background-size: auto 100%; 
+    color:#fff;   
+}
+
+#contato input, #contato textarea{
+    background-color: transparent !important;
+    border:solid 3px #fff;
+    border-radius:0;
+    color:#fff;
+}
+
+#fiqueLigado{
+    padding-top:50px;
+}
+
+#fiqueLigado h1{
+    padding-bottom:20px;
+}
+/*RODAPE*/
+#rodape{
+    background-color:#b0223a;
+    color:#fff;
+}
+
+/*################################################################*/
+
+/*Very small devices (smartphones, less than 300)*/
+@media (max-width: 300px) {
+    #inicio a{
+        font-size:10px !important;
+    }
+}    
+/*Small devices (smartphones, less than 576)*/
+@media  (max-width: 576px) {
+    
+    h1{
+        font-size:28px !important; 
+    }
+    
+    h2{
+        font-size:22px !important; 
+    }
+    
+    
+    /*MENU*/
+    .navbar-header img{
+        height:70%!important;
+        margin-top:10px;
+        margin-left:15px;
+    }
+
+    .navbar{
+        text-align: center;
+        font-size: 30px !important;
+        margin-left:0px;
+        margin-right:0px;
+    }
+    
+    /*INICIO*/
+    #inicio a{
+        padding-left: 0;
+        padding-right:0;
+    }
+    
+    /*SERVICOS*/
+    #servicos .col-sm-4{
+        margin:60px 0 !important;
+    }
+    
+    #servicos img{
+        width:70% !important;
+    }
+    
+    #design, #midia, #impressoes{
+        border-width:6px !important;
+    }
+    
+    /*CONTATO*/
+    #contato img {
+        width: 90% !important;
+        margin: 40px auto;
+    }
+}
+
+/* Medium, Large and Extra large devices (tablets and computers, 768px and up)*/
+@media (min-width: 576px) {
+    /*INICIO*/
+    #inicio h1{
+        font-size:45px;
+    }
+    
+    #inicio h2{
+        font-size:30px;
+    }
+    
+    #inicio a{
+       padding:5px 0;
+       font-size:18px;
+    }
+    
+    /*SERVICOS*/
+    #servicos img{
+        width:80% !important;
+    }
+   
+    /*CONTATO*/
+    #contato img{
+        width:60% !important;
+        margin:40px auto;
+    }
+}
+
+/* Medium devices (Tablets, 768px and up)*/
+@media (min-width: 576px) and (max-width: 992px) { 
+    h1{
+        font-size:34px !important;
+    }
+    
+    h2{
+        font-size:24px !important;
+    }
+    
+    /*MENU*/
+    #menu{
+        padding-bottom: 0;
+    }
+    #menu ul li{
+        text-align: center;
+    }
+    .navbar-header img{
+        
+        height:90%!important;
+        margin-top:4px;
+        margin-left:15px;
+        background-size:auto 100% ;
+    }
+    
+    .navbar{
+        font-size: 26px !important;
+        margin-left:0px;
+        margin-right:15px;
+    }
+    
+    /*SERVICOS*/
+    #design, #midia, #impressoes{
+        border-width:8px !important;
+    }
+    
+    /*SOBRE*/
+    #divSobre h1{
+        font-size:40px !important;
+        
+    }
+    
+    #divSobreImagem{
+        margin-top:50px;
+    }
+   
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1200px) {
+    /*MENU*/
+    .navbar-header img{
+        height:100%!important;
+        margin-left:15px;
+        padding-top:3px;
+    }
+
+    .navbar{
+        font-size: 30px !important;
+        margin-left:40px;
+        margin-right:40px;
+        
+    }
+    
+    /*CONTATO*/
+    #contato{
+        background-size: auto 100%; 
+    }
+   
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    /*MENU*/
+    .navbar-header img{
+        height:120%!important;
+        margin-left:15px;
+        padding-bottom:6px;
+    }
+
+    .navbar{
+        font-size: 30px !important;
+        margin-left:80px;
+        margin-right:80px;
+    }
+    
+    /*SOBRE*/
+    #divSobre{
+        padding-top:60px;
+    }
+    
+    #divSobre h1{
+        font-size:50px !important;
+    }
+    
+    /*CONTATO*/
+    #contato{
+        background-size: auto; 
+    }
+   
+}
